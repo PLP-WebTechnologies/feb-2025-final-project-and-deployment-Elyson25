@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGadget Store - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Same header as index.html -->
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="container">
+                <h1>Our Products</h1>
+                <div class="filter-options">
+                    <label for="category-filter">Category:</label>
+                    <select id="category-filter" aria-label="Filter products by category">
+                        <option value="all">All Categories</option>
+                        <option value="phones">Smartphones</option>
+                        <option value="laptops">Laptops</option>
+                        <option value="accessories">Accessories</option>
+                    </select>
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" aria-label="Sort products by">
+                        <option value="price-asc">Price: Low to High</option>
+                        <option value="price-desc">Price: High to Low</option>
+                        <option value="name-asc">Name: A-Z</option>
+                        <option value="name-desc">Name: Z-A</option>
+                    </select>
+                </div>
+                <div class="products-grid" id="all-products">
+                    <!-- Products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
